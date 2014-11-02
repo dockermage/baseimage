@@ -1,4 +1,12 @@
-# A minimal Ubuntu base image modified for Docker-friendliness
+# A minimal Debian-based image modified for Docker-friendliness
+
+This is a fork from Phusion's Baseimage-docker, version 0.9.15, and contains changes done for the DockerMage project.
+
+Changelog:
+ - switched to debian wheezy as base image
+
+
+# Original readme from phusion/baseimage-docker
 
 Baseimage-docker is a special [Docker](http://www.docker.io) image that is configured for correct use within Docker containers. It is Ubuntu, plus:
 
