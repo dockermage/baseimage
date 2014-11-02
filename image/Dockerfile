@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-MAINTAINER Phusion <info@phusion.nl>
+FROM debian:wheezy
+MAINTAINER Vlad Fratila <vlad.fratila@gmail.com>
 
 ENV HOME /root
 RUN mkdir /build

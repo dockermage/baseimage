@@ -46,5 +46,6 @@ $minimal_apt_get_install software-properties-common
 apt-get dist-upgrade -y --no-install-recommends
 
 ## Fix locale.
-$minimal_apt_get_install language-pack-en
-locale-gen en_US
+$minimal_apt_get_install locales 
+localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
+echo 'LANG="en_US.UTF-8"' > /etc/default/locale
