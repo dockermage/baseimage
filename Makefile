@@ -1,5 +1,5 @@
 NAME = dockermage/baseimage
-VERSION = 0.9.15
+VERSION = latest
 
 .PHONY: all build test tag_latest release ssh
 
